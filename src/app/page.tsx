@@ -26,7 +26,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1>Products 2</h1>
+      <h1>Products</h1>
       <ul>
         {data?.products.map((product) => (
           <li key={product.id}>
